@@ -5,7 +5,10 @@ import java.io.InputStreamReader;
 
 public class BufferedReaderDemo {
     public static void main(String[] args)throws IOException {
-        // Create a BufferedReader object to read input from the console
+        
+    	System.out.println("hello ");
+    	
+    	// Create a BufferedReader object to read input from the console
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         // Prompt the user to enter their name and read it using readLine() method
